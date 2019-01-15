@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/year" />
+
+    <EditText
+        android:id="@+id/make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/make" />
+    <EditText
+        android:id="@+id/model"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/model" />
+
+    <EditText
+        android:id="@+id/color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/color" />
+
+    <EditText
+        android:id="@+id/engine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/engine" />
+    <EditText
+        android:id="@+id/transmission"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/transmission" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/title" />
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:onClick="onClick"/>
+
+</LinearLayout>

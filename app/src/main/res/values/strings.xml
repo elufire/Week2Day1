@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Week2Day1</string>
+    <string name="year">Year</string>
+    <string name="make">Make</string>
+    <string name="model">Model</string>
+    <string name="color">Color</string>
+    <string name="engine">Engine</string>
+    <string name="transmission">Transmission</string>
+    <string name="title">Title</string>
+    <string name="to_input_first_method">To Input First Method</string>
+    <string name="to_input_second_method">To Input Second Method</string>
+</resources>
